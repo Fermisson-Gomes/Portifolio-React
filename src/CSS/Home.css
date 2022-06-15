@@ -1,0 +1,24 @@
+.home {
+  background-color: rgba(29, 96, 134, 0.6);
+  padding: 20px;
+  width: 70%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.p-tag {
+  font-size: 25px;
+  margin: 20px;
+}
+
+.complement {
+  font-weight: 500;
+}
+
+.home-name {
+  font-size: 35px;
+  margin: 0px 20px;
+  margin-left: 50px;
+}

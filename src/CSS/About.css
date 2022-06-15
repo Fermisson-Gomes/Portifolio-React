@@ -1,0 +1,30 @@
+.about {
+  background-color:  rgba(29, 96, 134, 0.6);
+  display: flex;
+  width: 70%;
+  height: 300px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.about-img {
+  display: flex;
+  align-items: center;
+}
+
+.desc {
+  width: 60%;
+  font-size: 15px;
+}
+
+.about-img img {
+  justify-self: flex-start;
+  height: 250px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.about .back {
+  align-self: flex-start;
+  margin: 10px 30px;
+}
