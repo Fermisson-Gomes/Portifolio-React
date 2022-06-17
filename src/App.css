@@ -28,7 +28,7 @@ body {
 
 .nav-header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .header a {
