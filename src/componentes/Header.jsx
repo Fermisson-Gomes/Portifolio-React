@@ -12,7 +12,9 @@ import { Link } from "react-router-dom";
           <p>HardSkills</p>
           </Link>
           <p>Projects</p>
+          <Link to='/contact' >
           <p>Contact</p>
+          </Link>
         </nav>
       </header>
     );

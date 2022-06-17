@@ -1,7 +1,7 @@
 import React from "react";
 import foto from './eu.jpeg';
 import '../CSS/About.css';
-import { Link } from "react-router-dom";
+import Back from "../componentes/Back";
 
 const About = () => {
   return (
@@ -13,9 +13,7 @@ const About = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a dignissim odio. Nulla velit justo, pellentesque at est eget, feugiat pulvinar mauris. Duis laoreet arcu lorem, at pellentesque massa dignissim iaculis. Proin vel vestibulum orci. Cras aliquam eget metus sed mollis. Quisque ac malesuada ante, id venenatis ante. Ut tristique facilisis enim, porttitor pulvinar est ullamcorper quis. Curabitur faucibus viverra orci, in efficitur turpis posuere vitae. Nam pretium lorem vel tincidunt suscipit.</p>
           </div>
         </div>
-        <div className="back">
-          <Link to='/' ><p>Back</p></Link>
-        </div>
+        <Back />
       </section>
     </main> 
   )

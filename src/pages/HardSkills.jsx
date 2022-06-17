@@ -2,8 +2,8 @@ import React from 'react';
 import '../CSS/hardskills.css'
 import { FaNodeJs, FaReact } from 'react-icons/fa';
 import { SiCss3, SiHtml5, SiJavascript } from 'react-icons/si';
-import { Link } from 'react-router-dom';
 import Card from '../componentes/Card';
+import Back from '../componentes/Back';
 
 const HardSkills = () => {
   const icons = [
@@ -32,9 +32,7 @@ const HardSkills = () => {
           ))
         }
         </div>
-      <div className="back">
-          <Link to='/' ><p>Back</p></Link>
-        </div>
+      <Back />
       </section>
     </main>
   )
