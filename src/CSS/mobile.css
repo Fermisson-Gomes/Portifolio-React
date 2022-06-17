@@ -1,0 +1,49 @@
+@media (max-width: 700px) {
+  .header {
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .nav-header a {
+    margin-left: 10px;
+  }
+
+  .home, .about, .hardskills, .contact {
+    min-height: 400px;
+  }
+
+  .p-tag, .complement {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .home-name {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .about {
+    font-size: 20px;
+  }
+
+  .about-img {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .desc {
+    margin-bottom: 20px;
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+  .icon {
+    font-size: 50px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}

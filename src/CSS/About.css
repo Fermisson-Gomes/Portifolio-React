@@ -1,8 +1,9 @@
 .about {
   background-color:  rgba(29, 96, 134, 0.6);
   display: flex;
+  margin: 5%;
   width: 70%;
-  height: 300px;
+  min-height: 300px;
   align-items: center;
   border-radius: 10px;
 }

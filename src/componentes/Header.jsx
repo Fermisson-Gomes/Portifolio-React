@@ -11,7 +11,9 @@ import { Link } from "react-router-dom";
           <Link to='/hardskills'>
           <p>HardSkills</p>
           </Link>
+          <Link>
           <p>Projects</p>
+          </Link>
           <Link to='/contact' >
           <p>Contact</p>
           </Link>
