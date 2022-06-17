@@ -6,6 +6,7 @@
 
   .nav-header a {
     margin-left: 10px;
+    margin-right: 10px;
   }
 
   .home, .about, .hardskills, .contact {
