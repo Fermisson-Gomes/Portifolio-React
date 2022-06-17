@@ -10,7 +10,11 @@ const About = () => {
         <div className="about-img">
           <img src={ foto } alt="minha foto" />
           <div className="desc">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a dignissim odio. Nulla velit justo, pellentesque at est eget, feugiat pulvinar mauris. Duis laoreet arcu lorem, at pellentesque massa dignissim iaculis. Proin vel vestibulum orci. Cras aliquam eget metus sed mollis. Quisque ac malesuada ante, id venenatis ante. Ut tristique facilisis enim, porttitor pulvinar est ullamcorper quis. Curabitur faucibus viverra orci, in efficitur turpis posuere vitae. Nam pretium lorem vel tincidunt suscipit.</p>
+            <p>
+              Hi! My name is Fermisson Gomes Barbosa, i'm 21 years old.
+               I am from Belem do São Francisco - PE but now i'm living in Juazeiro - BA.
+               I started my web development studies at trybe with the objective of joining the technology area.
+            </p>
           </div>
         </div>
         <Back />
