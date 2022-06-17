@@ -3,7 +3,7 @@ import foto from './eu.jpeg';
 import '../CSS/About.css';
 import '../CSS/contact.css';
 import Back from "../componentes/Back";
-import { FaSteam, FaXbox } from 'react-icons/fa';
+import { FaSteam } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';
 
 const About = () => {
