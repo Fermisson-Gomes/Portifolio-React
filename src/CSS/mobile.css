@@ -49,6 +49,11 @@
   .hardskills .title {
     display: none;
   }
+
+  .social .contact-icon, .contact .contact-icon {
+    font-size: 50px;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 450px) {
@@ -102,7 +107,8 @@
     display: none;
   }
 
-  .contact .contact-icon {
+  .contact .contact-icon, .social .contact-icon {
+    flex-wrap: wrap;
     font-size: 50px;
   }
 }

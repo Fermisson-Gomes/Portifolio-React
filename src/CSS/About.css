@@ -25,6 +25,20 @@
   border-radius: 20px;
 }
 
+.social {
+  display: flex;
+  flex-direction: column;
+}
+
+.social p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  display: flex;
+}
+
 .about .back {
   align-self: flex-start;
   margin: 10px 30px;
